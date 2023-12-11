@@ -1,3 +1,7 @@
-import { server } from "./server/Server";
+import { server } from './server/Server';
 
-server.listen(3000,()=> console.log("App running!"));
+
+server.listen(3000, () => {
+    console.log('Server is running on port 3000');
+}
+);
