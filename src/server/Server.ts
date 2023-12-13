@@ -6,8 +6,7 @@ import { router } from './routes';
 const server = express();
 
 
-server.use(express.json());  //para o express entender o formato json
-
+server.use(express.json());  
 server.use(router);
 
 
@@ -15,5 +14,5 @@ server.use(router);
 
 export { server };
 
-//npx ts-node-dev index.ts
+
 
