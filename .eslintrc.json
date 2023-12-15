@@ -16,7 +16,11 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "linebreak-style":[ 0],
+        "linebreak-style": [
+            0
+        ],
         "no-empty-interface": 0
-    }
+    },
+    " @typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-empty-interface": "off"
 }
