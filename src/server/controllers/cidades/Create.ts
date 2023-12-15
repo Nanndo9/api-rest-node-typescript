@@ -2,10 +2,10 @@
 import { Request, Response } from "express";
 
 interface Icidade {
-    name: string;
+    nome: string;
 }
 export const create = (req: Request<{}, {}, Icidade>, res: Response) => {
-console.log(req.body.name);
+console.log(req.body.nome);
 
 
 
